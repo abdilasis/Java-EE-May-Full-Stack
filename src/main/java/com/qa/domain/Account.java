@@ -14,6 +14,7 @@ public class Account {
 	private String firstName;
 	private String secondName;
 	private String accountNumber;
+	private String expiryDate;
 
 	public Account() {
 
@@ -27,6 +28,14 @@ public class Account {
 
 	public String getFirstName() {
 		return firstName;
+	}
+
+	public String getExpiryDate() {
+		return expiryDate;
+	}
+
+	public void setExpiryDate(String expiryDate) {
+		this.expiryDate = expiryDate;
 	}
 
 	public void setFirstName(String firstName) {
